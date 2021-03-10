@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="675.0" prefWidth="984.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.contoller.Dash_Controller">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="675.0" prefWidth="268.0" style="-fx-background-color: #050720;">
+         <children>
+            <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="125.0" layoutY="66.0" radius="63.0" stroke="BLUEVIOLET" strokeType="INSIDE" />
+            <Label layoutX="72.0" layoutY="138.0" text="Bridget Ngugi" textFill="#cccccc">
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER_LEFT" layoutX="24.0" layoutY="158.0" prefHeight="517.0" prefWidth="180.0" spacing="25.0" style="-fx-background-color: #050720;">
+               <children>
+                  <Button fx:id="btnOverview" mnemonicParsing="false" prefHeight="34.0" prefWidth="170.0" style="-fx-background-color: transparent;" text="Overview" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                     <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../icons/home.png" />
+                        </image>
+                     </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnOrders" layoutX="104.0" layoutY="189.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="Orders" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/Orders.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnCustomers" layoutX="104.0" layoutY="220.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="182.0" style="-fx-background-color: transparent;" text="Customers" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/customer.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnMenus" layoutX="104.0" layoutY="251.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="Menus" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/menu.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnPackages" layoutX="104.0" layoutY="281.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="164.0" style="-fx-background-color: transparent;" text="Packages" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/package.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnSettings" layoutX="104.0" layoutY="312.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="154.0" style="-fx-background-color: transparent;" text="Settings" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/settings.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnSignout" layoutX="104.0" layoutY="343.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="162.0" style="-fx-background-color: transparent;" text="Sign Out" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/sign_out.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </VBox>
+
+      
+               </children>
+      </Pane>
+      <StackPane layoutX="298.0" layoutY="76.0" prefHeight="110.0" prefWidth="572.0" AnchorPane.bottomAnchor="489.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="76.0">
+         <children>
+            <GridPane alignment="CENTER" prefHeight="102.0" prefWidth="537.0" StackPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="48.79999542236328" minHeight="10.0" prefHeight="48.79999542236328" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="61.19999542236327" minHeight="10.0" prefHeight="40.80000457763672" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="18.0" prefWidth="101.0" text="22000" textAlignment="JUSTIFY" textFill="#2a73ff">
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="20.0" prefHeight="18.0" prefWidth="66.0" text="1500" textFill="#25bfbb" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="149.0" layoutY="20.0" text="1000" textFill="#fb5e7e" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="288.0" layoutY="20.0" text="780" textFill="#dd0000" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Century Gothic Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="27.0" prefHeight="18.0" prefWidth="115.0" text="Total Orders" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="57.0" prefHeight="18.0" prefWidth="115.0" text="Delivered Orders" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="168.0" layoutY="57.0" prefHeight="18.0" prefWidth="115.0" text="Pending Orders" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="306.0" layoutY="57.0" prefHeight="18.0" prefWidth="115.0" text="Orders on Hold" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </StackPane>
+      <Label layoutX="288.0" layoutY="14.0" text="Restaurant Orders" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="31.0" />
+         </font>
+      </Label>
+
+      <HBox alignment="CENTER_LEFT" layoutX="325.0" layoutY="199.0" prefHeight="42.0" prefWidth="594.0" spacing="80.0" style="-fx-background-color: #d9 #02030Ad8d8;">
+         <children>
+            <Label text="Company Name" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Airport" textFill="WHITE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Amount" textFill="WHITE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Status" textFill="WHITE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+
+            <ScrollPane layoutX="280.0" layoutY="230.0" prefHeight="320.0" prefWidth="746.0" stylesheets="@../css/style.css">
+         <content>
+            <VBox fx:id="pnItems" prefHeight="318.0" prefWidth="745.0" spacing="5.0" style="-fx-background-color: #02030A;" stylesheets="@../css/style.css">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+
+</AnchorPane>
